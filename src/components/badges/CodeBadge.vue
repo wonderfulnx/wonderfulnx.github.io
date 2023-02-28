@@ -10,6 +10,6 @@ defineProps({
 <template>
   <a class="badge badge-code" v-if="codeUrl" target="_blank" :href="codeUrl">
     <i class="fa fa-code" aria-hidden="true"></i>
-    code
+    Code
   </a>
 </template>

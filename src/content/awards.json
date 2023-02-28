@@ -1,20 +1,10 @@
 [
     {
         "category": "Honors", "list": [
-            {"date": "2019.06", "content": "Excellent Graduates of Guizhou Province"},
-            {"date": "2018.12", "content": "National Scholarship"},
-            {"date": "2016.11", "content": "Merit Student of Guizhou Province"}
-        ]
-    },
-    {
-        "category": "Competitions", "list": [
-            {"date": "2022.08", "content": "Second prize in _[CCKS2022](http://sigkg.cn/ccks2022/?page_id=22) Task 8: Few-shot Event Subject Extraction_"},
-            {"date": "2021.07", "content": "Technological Innovation Award in _CCKS2021 Event and Event Relation Extraction Task_"},
-            {"date": "2021.05", "content": "Third Prize (top 5 team) in _2021 Language and Intelligence Competition: Information Extraction Task_"},
-            {"date": "2020.10", "content": "Top 1 team in _CCKS2020 Task 5: Event Extraction on Financial Documents_"},
-            {"date": "2018.07", "content": "First Prize in _The 1st Guizhou Electronic Design Contest_"},
-            {"date": "2017.11", "content": "Second Prize in _China Undergraduate Mathematical Contest in Modeling_"},
-            {"date": "2017.09", "content": "First Prize in _National Undergraduate Electronic Design Contest (Guizhou Division)_"}
+            {"date": "2022.9", "content": "Shandong Binzhou Talents Scholarship | 山东滨州英才奖学金"},
+            {"date": "2021.9", "content": "Xianning Talents Scholarship | 咸宁英才奖学金"},
+            {"date": "2020.6", "content": "Outstanding University Graduate of Tsinghua University | 清华大学优良毕业生"},
+            {"date": "2021.8", "content": "Second prize of wechat small program application development competition"}
         ]
     }
 ]

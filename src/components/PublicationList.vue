@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue'
 import Cite from 'citation-js'
 
+import PdfBadge from './badges/PdfBadge.vue'
 import SlidesBadge from './badges/SlidesBadge.vue'
 import VideoBadge from './badges/VideoBadge.vue'
 import CodeBadge from './badges/CodeBadge.vue'
@@ -106,9 +107,10 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 <template>
   <h2>📃 Publications</h2>
   <p>
-    <b>bold</b>: myself.
-    <sup>*</sup>: corresponding author(s).
-    <u>underline</u>: equal contributions.
+    Notations:&emsp;
+    <b>bold</b>->myself&emsp;<b>|</b>&emsp;
+    <sup>*</sup>->corresponding author(s)&emsp;<b>|</b>&emsp;
+    <u>underline</u>->equal contributions
   </p>
   <ul class="pub-list" reversed>
     <li v-for="pub in pubArr" :key="pub.entry.id">
@@ -118,8 +120,9 @@ function copyToClipboard(text, pubId, cslTemplateType) {
       <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
       <div>
         <div>
-          <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">abs</a>
-          <a class="badge badge-bib" @click="showFlag[pub.entry.id].bib = !showFlag[pub.entry.id].bib">bib</a>
+          <a class="badge badge-abs" v-if="pub.released" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Abstract</a>
+          <a class="badge badge-bib" v-if="pub.released" @click="showFlag[pub.entry.id].bib = !showFlag[pub.entry.id].bib">BibTeX</a>
+          <PdfBadge :pdfUrl="pub.resources.pdf"/>
           <SlidesBadge :slidesUrl="pub.resources.slides" />
           <VideoBadge :videoUrl="pub.resources.video" />
           <CodeBadge :codeUrl="pub.resources.code" />
