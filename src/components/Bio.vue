@@ -23,7 +23,7 @@ const description = computed(() => {
     <div class="m-r1 m-tb-05" v-for="(contact, key) in metaContent.contact" :key="key">
       <i :class="contact.icon"></i>
       <a v-if="contact.url !== undefined" :href="contact.url" target="_blank">{{ key }}</a>
-      <span v-if="contact.content !== undefined">{{ contact.content }}</span>
+      <a v-if="contact.content !== undefined">{{ contact.content }}</a>
     </div>
   </div>
 </template>

@@ -1,21 +1,23 @@
 {
     "name": "Xin Na (纳鑫)",
-    "description": "**Biography:** I'm a Ph.D. student at Tsinghua University, and now working in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/), advised by [Prof. Yuan He](http://www.greenorbs.org/people/heyuan/). I received my B.S. degree in School of Software from Tsinghua University in 2020. <br>**Research Interests:** Wireless networking, Low power IoT.",
+    "description": "**Biography:** I'm a Ph.D. student at Tsinghua University, and now working in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/), advised by [Prof. Yuan He](http://www.greenorbs.org/people/heyuan/). I received my B.S. degree in School of Software from Tsinghua University in 2020. <br>**Research Interests:** Wireless Networking, Low power IoT, Wireless Sensing, Cross-technology Communication.",
     "contact": {
         "Github": {"icon": "fa-brands fa-github", "url": "https://github.com/wonderfulnx"},
         "Gitlab": {"icon": "fa-brands fa-gitlab", "url": "https://gitlab.com/wonderfulnx"},
         "Google Scholar": {"icon": "ai ai-google-scholar", "url": "https://scholar.google.com/citations?user=wRBNC6AAAAAJ&hl=zh-CN"},
         "Research Gate": {"icon": "ai ai-researchgate", "url": "https://www.researchgate.net/profile/Xin_Na3/research"},
+        "ORCID": {"icon": "ai ai-orcid", "url": "https://orcid.org/0000-0002-0986-5209"},
         "Email": {"icon": "fa-regular fa-envelope", "url": "mailto:nx20@mails.tsinghua.edu.cn"},
         "Secondary Email": {"icon": "fa-regular fa-envelope", "url": "mailto:naxinlegend@outlook.com"},
         "Wechat": {"icon": "fa-brands fa-weixin", "content": "naxinthuss"},
+        "Reddit": {"icon": "fa-brands fa-reddit", "url": "https://www.reddit.com/user/wonderfulnx"},
         "Discord": {"icon": "fa-brands fa-discord", "url": "https://discord.com/users/wonderfulnx#5208"},
         "Bilibili": {"icon": "fa-brands fa-bilibili", "url": "https://space.bilibili.com/77200527"},
-        "Steam": {"icon": "fa-brands fa-steam", "url": "https://steamcommunity.com/id/wonderfulnx/"}
+        "Steam": {"icon": "fa-brands fa-steam", "url": "https://steamcommunity.com/id/wonderfulnx/"},
+        "Nintendo Online": {"icon": "bi bi-nintendo-switch", "url": "https://lounge.nintendo.com/friendcode/8461-2827-1215/DTWn93ZKZB"}
     },
     "deprecated": {
-        "PlayStation": {"icon": "fa-brands fa-playstation", "content": "wonderfulnx"},
         "Xbox": {"icon": "fa-brands fa-xbox", "content": "naxingmail"},
-        "Reddit": {"icon": "fa-brands fa-reddit", "content": "https://www.reddit.com/user/wonderfulnx"}
+        "PlayStation": {"icon": "fa-brands fa-playstation", "content": "wonderfulnx"}
     }
 }

@@ -16,7 +16,7 @@ const idPrefix = "award"
   <div v-for="(awardList, listIdx) in awardArr" :key="listIdx">
     <!-- <h3>{{ awardList.category }}</h3> -->
     <div class="row items-align-top" v-for="(award, index) in awardList.list">
-      <label class="col" :for="`${idPrefix}-${listIdx}-${index}`">{{ award.date }}</label>
+      <label class="col-2" :for="`${idPrefix}-${listIdx}-${index}`" style="max-width: none; text-align: center;">{{ award.date }}</label>
       <div class="col flex-start tight-list" :id="`${idPrefix}-${listIdx}-${index}`" v-html="award.content"></div>
     </div>
   </div>

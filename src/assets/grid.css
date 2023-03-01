@@ -30,6 +30,14 @@
     flex: 1;
 }
 
+.row .col-1 {
+    width: 10%;
+}
+
+.row .col-15 {
+    width: 15%;
+}
+
 .row .col-2 {
     width: 20%;
 }

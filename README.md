@@ -1,4 +1,4 @@
-# Tong's Academic Homepage
+# Xin's Academic Homepage
 
 👋 Hi there, this is my academic homepage built on [vue.js](https://vuejs.org/), [marked](https://github.com/markedjs/marked), [citation-js](https://github.com/citation-js/citation-js) and [bolt.css](https://github.com/tbolt/boltcss).
 

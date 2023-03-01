@@ -7,7 +7,7 @@
     {
         "category": "Tools", "list": [
             {"name": "acousticOFDM", "url": "https://github.com/wonderfulnx/acousticOFDM", "content": "An OFDM modulation commutation system on Android phones using sound wave."},
-            {"name": "FTP", "url": "https://github.com/wonderfulnx/FTP", "content": "a simple implementation of ftp with C and Python"}
+            {"name": "FTP", "url": "https://github.com/wonderfulnx/FTP", "content": "A simple implementation of ftp with C and Python"}
         ]
     }
 ]

@@ -19,22 +19,27 @@ import TalkList from './components/TalkList.vue'
     <NewsList />
     <hr>
     <EducationList />
+    <hr>
     <PublicationList />
+    <hr>
     <AwardList />
     <!-- <TalkList /> -->
+    <hr>
     <SoftwareList />
   </main>
 
   <footer>
     <hr>
-    <p>
-      <b>Relevant Links: </b>
-      <a href="http://tns.thss.tsinghua.edu.cn/sun/" target="_blank">The System and Ubiquitous Networking (<b>SUN</b>) Group</a>
-      | <a href="http://www.greenorbs.org/people/heyuan/" target="_blank">Prof. Yuan He</a>
-    </p>
-    <p style="text-align: center;">
-      Updated by Xin Na in March 2023. 😉
-    </p>
+    <div class="row items-align-top">
+      <img class="col-1" src="./assets/footer-left.jpg" style="max-width: none;" alt="personal photo">
+      <div class="col" style="text-align: center; margin: auto;">
+        <b>Relevant Links: </b>
+        <a href="http://tns.thss.tsinghua.edu.cn/sun/" target="_blank">The <b>SUN</b> Group</a>
+        | <a href="http://www.greenorbs.org/people/heyuan/" target="_blank">Prof. Yuan He</a>
+        <br><br>Updated by Xin Na in March 2023. 😉
+      </div>
+      <img class="col-1" src="./assets/footer-right.jpg" style="max-width: none;" alt="personal photo">
+  </div>
   </footer>
 </template>
 

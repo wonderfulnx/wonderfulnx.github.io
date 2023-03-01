@@ -44,7 +44,7 @@
         "note": "",
         "resources": {
             "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2022.SmarTiSCH.pdf",
-            "slides": "Waiting to be filled",
+            "slides": null,
             "video": null,
             "code": null,
             "demo": null
@@ -78,7 +78,7 @@
         "note": "",
         "resources": {
             "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2021.Wi-attack.pdf",
-            "slides": "Waiting to be filled",
+            "slides": null,
             "video": null,
             "code": "https://github.com/wonderfulnx/Wi-attack",
             "demo": null
