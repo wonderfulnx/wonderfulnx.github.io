@@ -123,6 +123,16 @@ p.note {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.badge-pdf {
+    color: white;
+    background-color: #1980e6;
+}
+
+.badge-pdf:hover {
+    color: white;
+    background-color: #4799eb;
+}
+
 .badge-video {
     color: #fcf0e4;
     background-color: #d88d54;
