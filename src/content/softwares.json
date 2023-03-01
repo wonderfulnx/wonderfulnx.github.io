@@ -1,15 +1,13 @@
 [
     {
         "category": "Research", "list": [
-            {"name": "DocEE", "url": "https://github.com/Spico197/DocEE", "content": "A toolkit for document-level event extraction, containing some SOTA model implementations."},
-            {"name": "REx", "url": "https://github.com/Spico197/REx", "content": "A PyTorch-based scaffold toolkit for Relation Extraction and more."}
+            {"name": "Wi-attack", "url": "https://github.com/wonderfulnx/Wi-attack", "content": "Source code for SECON 2021 paper Wi-attack."}
         ]
     },
     {
         "category": "Tools", "list": [
-            {"name": "Watchmen", "url": "https://github.com/Spico197/watchmen", "content": "A GPU scheduling toolkit for queuing jobs"},
-            {"name": "random-luck", "url": "https://github.com/Spico197/random-luck", "content": "Automatically select the best random seed based on ~~ancient Chinese I Ching~~ (random luck). Good luck and best wishes!"},
-            {"name": "paper-hero", "url": "https://github.com/Spico197/paper-hero", "content": "A toolkit to help search for papers from aclanthology, arXiv and dblp."}
+            {"name": "acousticOFDM", "url": "https://github.com/wonderfulnx/acousticOFDM", "content": "An OFDM modulation commutation system on Android phones using sound wave."},
+            {"name": "FTP", "url": "https://github.com/wonderfulnx/FTP", "content": "a simple implementation of ftp with C and Python"}
         ]
     }
 ]

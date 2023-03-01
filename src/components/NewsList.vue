@@ -14,7 +14,7 @@ const idPrefix = "news"
 <template>
   <h2>📰 News</h2>
   <div class="row items-align-top" v-for="(news, index) in newsArr" :key="index">
-    <label class="col" :for="`${idPrefix}-${index}`">{{ news.date }}</label>
+    <label class="col" :for="`${idPrefix}-${index}`" style="color: red; font-weight: bold;">[{{ news.date }}]</label>
     <div class="col flex-start tight-list" :id="`${idPrefix}-${index}`" v-html="news.content"></div>
   </div>
 </template>

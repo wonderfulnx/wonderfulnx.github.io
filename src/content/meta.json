@@ -1,11 +1,21 @@
 {
-    "name": "Tong Zhu (朱桐)",
-    "description": "I'm a Ph.D. student at Soochow University, advised by [Wenliang Chen](https://chen-wenliang.github.io/). I received my B.S. degree from Guizhou University.<br>My current research interests include Information Extraction and Knowledge Acquisition.",
+    "name": "Xin Na (纳鑫)",
+    "description": "**Biography:** I'm a Ph.D. student at Tsinghua University, and now working in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/), advised by [Prof. Yuan He](http://www.greenorbs.org/people/heyuan/). I received my B.S. degree in School of Software from Tsinghua University in 2020. <br>**Research Interests:** Wireless networking, Low power IoT.",
     "contact": {
-        "Github": {"icon": "fa fa-github", "url": "https://github.com/Spico197"},
-        "Google Scholar": {"icon": "ai ai-google-scholar", "url": "https://scholar.google.com/citations?user=V1gIjasAAAAJ&hl=en"},
-        "Semantic Scholar": {"icon": "ai ai-semantic-scholar", "url": "https://www.semanticscholar.org/author/Tong-Zhu/1914586128"},
-        "Website": {"icon": "fa fa-link", "url": "https://spico197.github.io/"},
-        "Email": {"icon": "fa fa-envelope", "url": "mailto:tzhu1997@outlook.com"}
+        "Github": {"icon": "fa-brands fa-github", "url": "https://github.com/wonderfulnx"},
+        "Gitlab": {"icon": "fa-brands fa-gitlab", "url": "https://gitlab.com/wonderfulnx"},
+        "Google Scholar": {"icon": "ai ai-google-scholar", "url": "https://scholar.google.com/citations?user=wRBNC6AAAAAJ&hl=zh-CN"},
+        "Research Gate": {"icon": "ai ai-researchgate", "url": "https://www.researchgate.net/profile/Xin_Na3/research"},
+        "Email": {"icon": "fa-regular fa-envelope", "url": "mailto:nx20@mails.tsinghua.edu.cn"},
+        "Secondary Email": {"icon": "fa-regular fa-envelope", "url": "mailto:naxinlegend@outlook.com"},
+        "Wechat": {"icon": "fa-brands fa-weixin", "content": "naxinthuss"},
+        "Discord": {"icon": "fa-brands fa-discord", "url": "https://discord.com/users/wonderfulnx#5208"},
+        "Bilibili": {"icon": "fa-brands fa-bilibili", "url": "https://space.bilibili.com/77200527"},
+        "Steam": {"icon": "fa-brands fa-steam", "url": "https://steamcommunity.com/id/wonderfulnx/"}
+    },
+    "deprecated": {
+        "PlayStation": {"icon": "fa-brands fa-playstation", "content": "wonderfulnx"},
+        "Xbox": {"icon": "fa-brands fa-xbox", "content": "naxingmail"},
+        "Reddit": {"icon": "fa-brands fa-reddit", "content": "https://www.reddit.com/user/wonderfulnx"}
     }
 }

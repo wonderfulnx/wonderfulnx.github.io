@@ -21,20 +21,19 @@ import TalkList from './components/TalkList.vue'
     <EducationList />
     <PublicationList />
     <AwardList />
-    <TalkList />
+    <!-- <TalkList /> -->
     <SoftwareList />
   </main>
 
   <footer>
     <hr>
     <p>
-      Links:
-      <a href="https://chen-wenliang.github.io/" target="_blank">Wenliang Chen</a>
-      | <a href="https://jacob-zhou.github.io/" target="_blank">Houquan Zhou</a>
-      | <a href="https://yzhangcs.github.io/" target="_blank">Yu Zhang</a>
+      <b>Relevant Links: </b>
+      <a href="http://tns.thss.tsinghua.edu.cn/sun/" target="_blank">The System and Ubiquitous Networking (<b>SUN</b>) Group</a>
+      | <a href="http://www.greenorbs.org/people/heyuan/" target="_blank">Prof. Yuan He</a>
     </p>
-    <p>
-      Made by Tong Zhu w/ ❤️
+    <p style="text-align: center;">
+      Updated by Xin Na in March 2023. 😉
     </p>
   </footer>
 </template>
