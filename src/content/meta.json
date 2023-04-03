@@ -10,13 +10,13 @@
         "Email": {"icon": "fa-regular fa-envelope", "url": "mailto:nx20@mails.tsinghua.edu.cn"},
         "Secondary Email": {"icon": "fa-regular fa-envelope", "url": "mailto:naxinlegend@outlook.com"},
         "Wechat": {"icon": "fa-brands fa-weixin", "content": "naxinthuss"},
-        "Reddit": {"icon": "fa-brands fa-reddit", "url": "https://www.reddit.com/user/wonderfulnx"},
         "Discord": {"icon": "fa-brands fa-discord", "url": "https://discord.com/users/wonderfulnx#5208"},
         "Bilibili": {"icon": "fa-brands fa-bilibili", "url": "https://space.bilibili.com/77200527"},
         "Steam": {"icon": "fa-brands fa-steam", "url": "https://steamcommunity.com/id/wonderfulnx/"},
         "Nintendo Online": {"icon": "bi bi-nintendo-switch", "url": "https://lounge.nintendo.com/friendcode/8461-2827-1215/DTWn93ZKZB"}
     },
     "deprecated": {
+        "Reddit": {"icon": "fa-brands fa-reddit", "url": "https://www.reddit.com/user/wonderfulnx"},
         "Xbox": {"icon": "fa-brands fa-xbox", "content": "naxingmail"},
         "PlayStation": {"icon": "fa-brands fa-playstation", "content": "wonderfulnx"}
     }
