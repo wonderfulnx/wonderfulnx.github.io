@@ -3,8 +3,9 @@
         "category": "Honors", "list": [
             {"date": "2022.09", "content": "Shandong Binzhou Talents Scholarship | 山东滨州英才奖学金"},
             {"date": "2021.09", "content": "Xianning Talents Scholarship | 咸宁英才奖学金"},
+            {"date": "2021.08", "content": "Second Prize of WeChat Small Program Application Development Competition | 微信小程序大赛全国二等奖"},
             {"date": "2020.06", "content": "Outstanding University Graduate of Tsinghua University | 清华大学优良毕业生"},
-            {"date": "2021.08", "content": "Second Prize of WeChat Small Program Application Development Competition | 微信小程序大赛全国二等奖"}
+            {"date": "2020.06", "content": "Excellent Graduate of School of Software | 清华大学软件学院优秀毕业生"}
         ]
     }
 ]

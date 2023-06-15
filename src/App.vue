@@ -36,7 +36,7 @@ import TalkList from './components/TalkList.vue'
         <b>Relevant Links: </b>
         <a href="http://tns.thss.tsinghua.edu.cn/sun/" target="_blank">The <b>SUN</b> Group</a>
         | <a href="http://www.greenorbs.org/people/heyuan/" target="_blank">Prof. Yuan He</a>
-        <br><br>Updated by Xin Na in March 2023. 😉
+        <br><br>Updated by Xin Na in June 2023. 😉
       </div>
       <img class="col-1" src="./assets/footer-right.jpg" style="max-width: none;" alt="personal photo">
   </div>

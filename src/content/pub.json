@@ -1,5 +1,22 @@
 [
     {
+        "bibtex": "@INPROCEEDINGS{Leggiero,\n    author={Zhang, Jia and Na, Xin and Xi, Rui and Sun, Yimiao and He, Yuan},\n    booktitle={20th IEEE International Conference on Sensing, Communication, and Networking (SECON)}, \n    title={mmHawkeye: Passive UAV Detection with a COTS mmWave Radar}, \n    year={2023},\n    volume={},\n    number={},\n    pages={},\n    keywords={},\n    ISSN={},\n    month={September}\n    }",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": false,
+        "note": "",
+        "resources": {
+            "pdf": null,
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
         "bibtex": "@INPROCEEDINGS{Leggiero,\n    author={Na, Xin and Guo, Xiuzhen and Yu, Zihao and Zhang, Jia and He, Yuan and Liu, Yunhao},\n    booktitle={21st ACM International Conference on Mobile Systems, Applications, and Services (Mobisys)}, \n    title={Leggiero: Analog WiFi Backscatter with Payload Transparency}, \n    year={2023},\n    volume={},\n    number={},\n    pages={},\n    keywords={},\n    ISSN={},\n    month={June}\n}",
         "authors": {
             "boldAuthors": ["Xin Na"],
@@ -12,7 +29,7 @@
             "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2023.Leggiero.pdf",
             "slides": null,
             "video": null,
-            "code": null,
+            "code": "https://github.com/wonderfulnx/Leggiero",
             "demo": null
         }
     },
