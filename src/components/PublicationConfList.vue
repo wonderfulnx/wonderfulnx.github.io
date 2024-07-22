@@ -9,7 +9,7 @@ import CodeBadge from './badges/CodeBadge.vue'
 import DemoBadge from './badges/DemoBadge.vue'
 import { AclCsl, Gb7714Csl } from '../utils'
 
-import pubJson from '../content/pub.json'
+import pubJson from '../content/pub_conf.json'
 
 
 const pubArr = computed(() => {
@@ -105,7 +105,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </script>
 
 <template>
-  <h2>📃 Publications</h2>
+  <h2>📃 Conference Publications</h2>
   <p>
     Notations:&emsp;
     <b>bold</b>->myself&emsp;<b>|</b>&emsp;
@@ -114,10 +114,10 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   </p>
   <ul class="pub-list" reversed>
     <li v-for="pub in pubArr" :key="pub.entry.id">
+      <span class="pub note" v-if="pub.note">[{{ pub.note }}] </span>
       <a :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a><br>
       <p class="pub" v-html="pub.entry.authors"></p>
       <p class="pub"><em>{{ pub.entry["container-title"] }}</em>. {{ pub.entry.issued["date-parts"][0][0] }}.</p>
-      <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
       <div>
         <div>
           <a class="badge badge-abs" v-if="pub.released" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Abstract</a>

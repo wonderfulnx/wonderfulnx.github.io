@@ -2,7 +2,8 @@
 import Bio from './components/Bio.vue'
 import NewsList from './components/NewsList.vue'
 import EducationList from './components/EducationList.vue'
-import PublicationList from './components/PublicationList.vue'
+import PublicationConfList from './components/PublicationConfList.vue'
+import PublicationJourList from './components/PublicationJourList.vue'
 import AwardList from './components/AwardList.vue'
 import SoftwareList from './components/SoftwareList.vue'
 import TalkList from './components/TalkList.vue'
@@ -20,7 +21,9 @@ import TalkList from './components/TalkList.vue'
     <hr>
     <EducationList />
     <hr>
-    <PublicationList />
+    <PublicationConfList />
+    <hr>
+    <PublicationJourList />
     <hr>
     <AwardList />
     <!-- <TalkList /> -->
@@ -36,7 +39,7 @@ import TalkList from './components/TalkList.vue'
         <b>Relevant Links: </b>
         <a href="http://tns.thss.tsinghua.edu.cn/sun/" target="_blank">The <b>SUN</b> Group</a>
         | <a href="http://tns.thss.tsinghua.edu.cn/sun/members/YuanHe/" target="_blank">Prof. Yuan He</a>
-        <br><br>Updated by Xin Na in June 2023. 😉
+        <br><br>Updated by Xin Na in July 2024. 😉
       </div>
       <img class="col-1" src="./assets/footer-right.jpg" style="max-width: none;" alt="personal photo">
   </div>

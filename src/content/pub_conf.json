@@ -1,0 +1,104 @@
+[
+    {
+        "bibtex": "@inproceedings{yang2024trident,\ntitle = {TRIDENT: Interference Avoidance in Multi-reader Backscatter Network via Frequency-space Division},\nauthor = {Zou, Yang and Na, Xin and Guo, Xiuzhen and Sun, Yimiao and He, Yuan},\nbooktitle = {Proceedings of the IEEE INFOCOM}, \nyear = {2024}\n}\n",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": false,
+        "note": "IEEE INFOCOM'24",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2024.Trident.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{10.1145/3625687.3625786,\n  author = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\n  title = {BIFROST: Reinventing WiFi Signals Based on Dispersion Effect for Accurate Indoor Localization},\n  year = {2024},\n  isbn = {9798400704147},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3625687.3625786},\n  doi = {10.1145/3625687.3625786},\n  abstract = {WiFi-based device localization is a key enabling technology for smart applications, which has attracted numerous research studies in the past decade. Most of the existing approaches rely on Line-of-Sight (LoS) signals to work, while a critical problem is often neglected: In the real-world indoor environments, WiFi signals are everywhere, but very few of them are usable for accurate localization. As a result, the localization accuracy in practice is far from being satisfactory. This paper presents Bifrost, a novel hardwaresoftware co-design for accurate indoor localization. The core idea of Bifrost is to reinvent WiFi signals, so as to provide sufficient LoS signals for localization. This is realized by exploiting the dispersion effect of signals emitted by the leaky wave antenna (LWA). We present a low-cost plug-in design of LWA that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing Angle-of-Arrival (AoA) information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. In the software layer, fine-grained information in Channel State Information (CSI) is exploited to cope with multipath and noise. We implement Bifrost and evaluate its performance under various settings. The results show that the median localization error of Bifrost is 0.81m, which is 52.35% less than that of SpotFi, a state-of-the-art approach. SpotFi, when combined with Bifrost to work in the realistic settings, can reduce the localization error by 33.54%.},\n  booktitle = {Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems (Sensys)},\n  pages = {376–389},\n  numpages = {14},\n  keywords = {wifi localization, indoor localization, leaky wave antenna, RF computing},\n  location = {Istanbul, Turkiye},\n  series = {SenSys '23}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "ACM Sensys'23",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2023.BIFROST.pdf",
+            "slides": "http://tns.thss.tsinghua.edu.cn/sun/slides/BIFROST_PPT.pptx",
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@INPROCEEDINGS{10287526,\n  author={Zhang, Jia and Na, Xin and Xi, Rui and Sun, Yimiao and He, Yuan},\n  booktitle={Proceedings of the 20th IEEE International Conference on Sensing, Communication, and Networking (SECON)}, \n  title={mmHawkeye: Passive UAV Detection with a COTS mmWave Radar}, \n  year={2023},\n  volume={},\n  number={},\n  pages={267-275},\n  keywords={Wireless communication;Passive radar;Wireless sensor networks;Tracking;Radar detection;Millimeter wave radar;Autonomous aerial vehicles;Wireless Sensing;Millimeter Wave;UAV},\n  doi={10.1109/SECON58729.2023.10287526},\n  abstract={Small Unmanned Aerial Vehicles (UAVs) are becoming potential threats to security-sensitive areas and personal privacy. A UAV can shoot photos at height, but how to detect such an uninvited intruder is an open problem. This paper presents mmHawkeye, a passive approach for UAV detection with a COTS millimeter wave (mmWave) radar. mmHawkeye doesn't require prior knowledge of the type, motions, and flight trajectory of the UAV, while exploiting the signal feature induced by the UAV's periodic micro-motion (PMM) for long-range accurate detection. The design is therefore effective in dealing with low-SNR and uncertain reflected signals from the UAV. mmHawkeye can further track the UAV's position with dynamic programming and particle filtering, and identify it with a Long Short-Term Memory (LSTM) based detector. We implement mmHawkeye on a commercial mmWave radar and evaluate its performance under varied settings. The experimental results show that mmHawkeye has a detection accuracy of 95.8% and can realize detection at a range up to 80m.},\n  url = {https://doi.org/10.1109/SECON58729.2023.10287526}}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "IEEE SECON'23",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2023.mmHawkeye.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{10.1145/3581791.3596835,\n    author = {Na, Xin and Guo, Xiuzhen and Yu, Zihao and Zhang, Jia and He, Yuan and Liu, Yunhao},\n    title = {Leggiero: Analog WiFi Backscatter with Payload Transparency},\n    year = {2023},\n    isbn = {9798400701108},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    url = {https://doi.org/10.1145/3581791.3596835},\n    doi = {10.1145/3581791.3596835},\n    abstract = {Backscatter is an enabling technology for battery-free sensing in today's Artificial Intelligence of Things (AIOT). Building a backscatter-based sensing system, however, is a daunting task, due to two obstacles: the unaffordable power consumption of the microprocessor and the coexistence with the ambient carrier's traffic. In order to address the above issues, in this paper, we present Leggiero, the first-of-its-kind analog WiFi backscatter with payload transparency. Leveraging a specially designed circuit with a varactor diode, this design avoids using a microprocessor to interface between the radio and the sensor, and directly converts the analog sensor signal into the phase of RF (radio frequency) signal. By carefully designing the reference circuit on the tag and precisely locating the extra long training field (LTF) section of a WiFi packet, Leggiero embeds the analog phase value into the channel state information (CSI). A commodity WiFi receiver without hardware modification can simultaneously decode the WiFi and the sensor data. We implement Leggiero design and evaluate its performance under varied settings. The results show that the power consumption of the Leggiero tag (excluding the power of the peripheral sensor module) is 30μW at a sampling rate of 400Hz, which is 4.8\texttimes{} and 4\texttimes{} lower than the state-of-the-art WiFi backscatter schemes. The uplink throughput of Leggiero is suficient to support a variety of sensing applications, while keeping the WiFi carrier's throughput performance unaffected.},\n    booktitle = {Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services (MobiSys)},\n    pages = {436–449},\n    numpages = {14},\n    keywords = {RF computing, phase, analog, backscatter},\n    location = {Helsinki, Finland},\n    series = {MobiSys '23}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "ACM MobiSys'23",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2023.Leggiero.pdf",
+            "slides": "http://tns.thss.tsinghua.edu.cn/sun/slides/Leggiero_Slides.pptx",
+            "video": null,
+            "code": "https://github.com/wonderfulnx/Leggiero",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@INPROCEEDINGS{9825921,\n    author={Yu, Zihao and Na, Xin and Boano, Carlo Alberto and He, Yuan and Guo, Xiuzhen and Li, Pengyu and Jin, Meng},\n    booktitle={21st ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, \n    title={SmarTiSCH: An Interference-Aware Engine for IEEE 802.15.4e-based Networks}, \n    year={2022},\n    volume={},\n    number={},\n    pages={350-362},\n    abstract={Time-Slotted Channel Hopping (TSCH) is a popular link-layer pro-tocol defined in the IEEE 802.15.4e standard that improves the reli-ability and throughput of wireless sensor networks by exploiting diversity in both time and frequency. Despite the body of literature proposing several scheduling schemes for TSCH, a gap yet to be filled is the design of an effective way to deal with internal and external interference, which are both known to strongly affect communication performance. In fact, existing works either make use of a fixed schedule (and hence cannot cope with interference), or re-quire extra control traffic (and hence increase energy consumption). In this paper, we present SmarTiSCH, an interference-aware en-gine for IEEE 802.15.4e-based networks that retains the simplicity and energy-efficiency of autonomous scheduling, while increasing the awareness as well as robustness to both internal and external interference. With SmarTiSCH, the nodes in the network infer the presence of interference and react to it without the need of extra control traffic. Specifically, SmarTiSCH enables each node to infer the interference by passively observing existing data exchanges. It then lets a pair of nodes exchange information and mutually agree on a proper strategy to mitigate interference without the need of extra transmissions. We implement SmarTiSCH in Contiki-NG and evaluate its performance on a testbed of 20 off-the-shelf IEEE 802.15.4 devices based on the nRF52840. Our results show that SmarTiSCH increases the reliability of transmissions by up to 2.9 times compared to state-of-the-art approaches in the presence of interference, while even lowering the duty cycle by 54.3%.},\n    keywords={},\n    url={https://ieeexplore.ieee.org/abstract/document/9825921},\n    doi={10.1109/IPSN54338.2022.00035},\n    ISSN={},\n    month={May}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "ACM/IEEE IPSN'22",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2022.SmarTiSCH.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@INPROCEEDINGS{9491605,\n    author={Na, Xin and Guo, Xiuzhen and He, Yuan and Xi, Rui},\n    booktitle={18th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)}, \n    title={Wi-attack: Cross-technology Impersonation Attack against iBeacon Services}, \n    year={2021},\n    volume={},\n    number={},\n    pages={1-9},\n    abstract={iBeacon protocol is widely deployed to provide location-based services. By receiving its BLE advertisements, nearby devices can estimate the proximity to the iBeacon or calculate indoor positions. However, the open nature of these advertisements brings vulnerability to impersonation attacks. Such attacks could lead to spam, unreliable positioning, and even security breaches. In this paper, we propose Wi-attack, revealing the feasibility of using WiFi devices to conduct impersonation attacks on iBeacon services. Different from impersonation attacks using BLE compatible hardware, Wi-attack is not restricted by broadcasting intervals and is able to impersonate multiple iBeacons at the same time. Effective attacks can be launched on iBeacon services without modifications to WiFi hardware or firmware. To enable direct communication from WiFi to BLE, we use the digital emulation technique of cross technology communication. To enhance the packet reception along with its stability, we add redundant packets to eliminate cyclic prefix error entirely. The emulation provides an iBeacon packet reception rate up to 66.2%. We conduct attacks on three iBeacon services scenarios, point deployment, multilateration, and fingerprint-based localization. The evaluation results show that Wi-attack can bring an average distance error of more than 20 meters on fingerprint-based localization using only 3 APs.},\n    keywords={},\n    url={https://ieeexplore.ieee.org/abstract/document/9491605},\n    doi={10.1109/SECON52354.2021.9491605},\n    ISSN={2155-5494},\n    month={July},\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "IEEE SECON'21",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2021.Wi-attack.pdf",
+            "slides": "http://tns.thss.tsinghua.edu.cn/sun/slides/Wi-attack_slides.pdf",
+            "video": null,
+            "code": "https://github.com/wonderfulnx/Wi-attack",
+            "demo": null
+        }
+    }
+]

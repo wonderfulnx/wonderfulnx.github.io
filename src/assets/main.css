@@ -49,10 +49,10 @@ p.pub {
     margin-bottom: 0;
 }
 
-p.note {
+span.note {
     color: red;
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .tight-list p {

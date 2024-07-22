@@ -1,8 +1,8 @@
 [
     {
         "category": "Research", "list": [
-            {"name": "Wi-attack", "url": "https://github.com/wonderfulnx/Wi-attack", "content": "Source code for SECON 2021 paper Wi-attack."},
-            {"name": "Leggiero", "url": "https://github.com/wonderfulnx/Leggiero", "content": "Tag hardware for MobiSys 2023 paper Leggiero."}
+            {"name": "Leggiero", "url": "https://github.com/wonderfulnx/Leggiero", "content": "Tag hardware for MobiSys 2023 paper Leggiero and its enhanced version Leggiero+."},
+            {"name": "Wi-attack", "url": "https://github.com/wonderfulnx/Wi-attack", "content": "Source code for SECON 2021 paper Wi-attack."}
         ]
     },
     {

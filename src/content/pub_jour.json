@@ -1,0 +1,70 @@
+[
+    {
+        "bibtex": "@article{10.1145/3638767,\n  author = {He, Yuan and Zhang, Jia and Xi, Rui and Na, Xin and Sun, Yimiao and Li, Beibei},\n  title = {Detection and Identification of Non-cooperative UAV Using a COTS mmWave Radar},\n  year = {2024},\n  issue_date = {March 2024},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  volume = {20},\n  number = {2},\n  issn = {1550-4859},\n  url = {https://doi.org/10.1145/3638767},\n  doi = {10.1145/3638767},\n  abstract = {Small Unmanned Aerial Vehicles (UAVs) are becoming potential threats to security-sensitive areas and personal privacy. A UAV can shoot photos at height, but how to detect such an uninvited intruder is an open problem. This article presents mmHawkeye, a passive approach for non-cooperative UAV detection and identification with a commercial off-the-shelf millimeter wave (mmWave) radar. mmHawkeye does not require prior knowledge of the type, motions, and flight trajectory of the UAV, while exploiting the signal feature induced by the UAV’s periodic micro-motion (PMM) for long-range accurate detection. The design is therefore effective in dealing with low signal-to-noise ratio and uncertain reflected signals from the UAV. After analyzing the theoretical model of the PMM feature, mmHawkeye can further track the UAV’s position containing range, azimuth and altitude angle with dynamic programming and particle filtering and then identify it with a Long Short-Term Memory–based detector. We implement mmHawkeye on a commercial mmWave radar and evaluate its performance under varied settings. The experimental results show that mmHawkeye has a detection accuracy of 95.8% and can realize detection at a range up to 80 m.},\n  journal = {ACM Trans. Sen. Netw. (TOSN)},\n  month = {feb},\n  articleno = {44},\n  numpages = {22},\n  keywords = {Passive detection, periodic micro-motion, LSTM, millimeter Wave, UAV}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "TOSN",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2024.mmHawkeye_TOSN.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@ARTICLE{10193776,\n  author={Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\n  journal={IEEE Communications Surveys & Tutorials (COMST)}, \n  title={A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications}, \n  year={2023},\n  volume={25},\n  number={4},\n  pages={2052-2087},\n  keywords={Sensors;Millimeter wave communication;Surveys;Task analysis;Radar imaging;Hardware;Radar tracking;Millimeter wave;human sensing;mmWave sensing;mmWave radar},\n  doi={10.1109/COMST.2023.3298300},\n  abstract={With the rapid development of the Internet of Things (IoT) and the rise of 5G communication networks and automatic driving, millimeter wave (mmWave) sensing is emerging and starts impacting our life and workspace. mmWave sensing can sense humans and objects in a contactless way, providing fine-grained sensing ability. In the past few years, many mmWave sensing techniques have been proposed and applied in various human sensing applications (e.g., human localization, gesture recognition, and vital monitoring). We discover the need of a comprehensive survey to summarize the technology, platforms and applications of mmWave-based human sensing. In this survey, we first present the mmWave hardware platforms and some key techniques of mmWave sensing. We then provide a comprehensive review of existing mmWave-based human sensing works. Specifically, we divide existing works into four categories according to the sensing granularity: human tracking and localization, motion recognition, biometric measurement and human imaging. Finally, we discuss the potential research challenges and present future directions in this area.},\n  url={https://doi.org/10.1109/COMST.2023.3298300}\n}\n",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "COMST",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2023.mmWaveSurvey.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@article{10.1145/3530049,\n    author = {He, Yuan and Guo, Xiuzhen and Zheng, Xiaolong and Yu, Zihao and Zhang, Jia and Jiang, Haotian and Na, Xin and Zhang, Jiacheng},\n    title = {Cross-Technology Communication for the Internet of Things: A Survey},\n    year = {2022},\n    issue_date = {May 2023},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {55},\n    number = {5},\n    issn = {0360-0300},\n    url = {https://doi.org/10.1145/3530049},\n    doi = {10.1145/3530049},\n    abstract = {The ever-developing Internet of Things (IoT) brings the prosperity of wireless sensing and control applications. In many scenarios, different wireless technologies coexist in the shared frequency medium as well as the physical space. Such wireless coexistence may lead to serious cross-technology interference (CTI) problems, e.g., channel competition, signal collision, and throughput degradation. Compared with traditional methods like interference avoidance, tolerance, and concurrency mechanism, direct and timely information exchange among heterogeneous devices is therefore a fundamental requirement to ensure the usability, inter-operability, and reliability of the IoT. Under this circumstance, Cross-Technology Communication (CTC) technique thus becomes a hot topic in both academic and industrial fields, which aims at directly exchanging data among heterogeneous devices that follow different standards. This paper comprehensively summarizes the CTC techniques and reveals that the key challenge for CTC lies in the heterogeneity of IoT devices, including the incompatibility of technical standards and the asymmetry of connection capability. Based on the above finding, we present a taxonomy of the existing CTC works (packet-level CTCs and physical-level CTCs) and compare the existing CTC techniques in terms of throughput, reliability, hardware modification, and concurrency.},\n    journal = {ACM Comput. Surv. (CSUR)},\n    month = {dec},\n    articleno = {89},\n    numpages = {29},\n    keywords = {Cross-Technology Communication, research survey, heterogeneous coexistence, Wireless communication}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Xiuzhen Guo"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "CSUR",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2022.CTC_Survey.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@article{10.1145/3469031,\n    author = {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian and Yu, Zihao and Na, Xin},\n    title = {Taming the Errors in Cross-Technology Communication: A Probabilistic Approach},\n    year = {2021},\n    issue_date = {February 2022},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {18},\n    number = {1},\n    issn = {1550-4859},\n    url = {https://doi.org/10.1145/3469031},\n    doi = {10.1145/3469031},\n    abstract = {Cross-Technology Communication (CTC) emerges as a technology to enable direct communication across different wireless technologies. The state of the art on CTC employs physical-level emulation. Due to the protocol incompatibility and the hardware restriction, there are intrinsic emulation errors between the emulated signals and the legitimate signals. Unresolved emulation errors hurt the reliability of CTC and the achievable throughput, but how to improve the reliability of CTC remains a challenging problem. Taking the CTC from WiFi to BLE as an example, this work first presents a comprehensive understanding of the emulation errors. We then propose WEB, a practical CTC approach that can be implemented with commercial devices. The core design of WEB is split encoding: based on the probabilistic distribution of emulation errors, the WiFi sender manipulates its payload to maximize the successful decoding rate at the BLE receiver. We implement WEB and evaluate its performance with extensive experiments. Compared to two existing approaches, WEBee and WIDE, WEB reduces the SER (Symbol Error Rate) by 54.6% and 42.2%, respectively. For the first time in the community, WEB achieves practically effective CTC from WiFi to BLE, with an average throughput of 522.2 Kbps.},\n    journal = {ACM Trans. Sen. Netw. (TOSN)},\n    month = {oct},\n    articleno = {3},\n    numpages = {20},\n    keywords = {Cross-technology, WiFi to BLE, split encoding}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "TOSN",
+        "resources": {
+            "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2021.web_tosn.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    }
+]
