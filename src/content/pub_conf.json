@@ -1,12 +1,46 @@
 [
     {
-        "bibtex": "@inproceedings{yang2024trident,\ntitle = {TRIDENT: Interference Avoidance in Multi-reader Backscatter Network via Frequency-space Division},\nauthor = {Zou, Yang and Na, Xin and Guo, Xiuzhen and Sun, Yimiao and He, Yuan},\nbooktitle = {Proceedings of the IEEE INFOCOM}, \nyear = {2024}\n}\n",
+        "bibtex": "@inproceedings{QuinID,\n  author = {Na, Xin and Zhang, Jia and Zhang, Jiacheng and Guo, Xiuzhen and Zou, Yang and Jin, Meng and Sun, Yimiao and Liu, Yunhao and He, Yuan},\n  title = {QuinID: Enabling FDMA-Based Fully Parallel RFID with Frequency-Selective Antenna},\n  year = {2025},\n  booktitle = {Proceedings of the 2025 ACM MobiCom},\n}",
         "authors": {
             "boldAuthors": ["Xin Na"],
             "correspondingAuthors": ["Yuan He"],
             "equalContributionAuthors": null
         },
         "released": false,
+        "note": "ACM MobiCom'25",
+        "resources": {
+            "pdf": null,
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{RFinder,\n  author = {Zhang, Jiacheng and Jin, Meng and Sun, Yimiao and Wang, Weiguo and Zhang, Jia and Na, Xin and Guo, Xiuzhen and He, Yuan},\n  title = {RFinder: Pinpoint the Invisible RFID Tags in the Prefabricated Buildings},\n  year = {2024},\n  booktitle = {Proceedings of the 2024 ACM EWSN},\n  url = {https://ewsn.org/file-repository/ewsn2024/ewsn24-final70.pdf},\n  abstract={This paper presents RFinder, a handheld RFID localization system that can accurately localize an in-concrete RFID tag. Such a system facilitates RFID applications in construction quality control. However, the challenge we meet in designing such a system is to achieve accurate RFID localization in a compact (e.g., with only one antenna) and mobile form. To solve this problem, we opportunistically combine the sensing ability of the RFID and the Inertial Measurement Unit (IMU) sensor that is widely embedded in most handheld RFID readers. Specifically, the user just needs to hold the handheld device and move it in the air. The movement of the device causes changes in 1) RFID measurement phase, and 2) motion sensor data (e.g., acceleration) captured by IMU. We find that if the tag’s direction relative to the tag is almost not changed, it is possible to establish a correlation between the velocity calculated from acceleration and that of the RFID phase, thereby enabling us to localize the tag’s AoA without the precise position of the antenna. We build a signal preprocessing and matching workflow to better fuse the two kinds of data. Experiments show that RFinder can achieve an 11° 3D AoA estimation accuracy at the range of 2.5m.}\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
+        "note": "ACM EWSN'24",
+        "resources": {
+            "pdf": "https://tns.thss.tsinghua.edu.cn/sun/publications/2024.RFinder.pdf",
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@INPROCEEDINGS{10621258,\n  author={Zou, Yang and Na, Xin and Guo, Xiuzhen and Sun, Yimiao and He, Yuan},\n  booktitle={IEEE INFOCOM 2024 - IEEE Conference on Computer Communications}, \n  title={Trident: Interference Avoidance in Multi-reader Backscatter Network via Frequency-space Division}, \n  year={2024},\n  volume={},\n  number={},\n  pages={1761-1770},\n  keywords={Time division multiple access;Frequency-domain analysis;Interference;Media;Throughput;Frequency conversion;Hardware;Backscatter Network;Interference Avoidance;Multi-reader Backscatter;Low-power Hardware Design},\n  url={https://doi.org/10.1109/INFOCOM52122.2024.10621258},\n  doi={10.1109/INFOCOM52122.2024.10621258},\n  abstract={Backscatter is an enabling technology for battery-free sensing in industrial IoT applications. For the purpose of full coverage of numerous tags in the deployment area, one often needs to deploy multiple readers, each of which is to communicate with tags within its communication range. But the actual backscattered signals from a tag are likely to reach a reader outside its communication range, causing undesired interference. Conventional approaches for interference avoidance, either TDMA or CSMA based, separate the readers’ media accesses in the time dimension and suffer from limited network throughput. In this paper, we propose Trident, a novel backscatter tag design that enables interference avoidance with frequency-space division. By incorporating a tunable bandpass filter and multiple terminal loads, a Trident tag is able to detect its channel condition and adaptively adjust the frequency band and the power of its backscattered signals, so that all the readers in the network can operate concurrently without being interfered. We implement Trident and evaluate its performance under various settings. The results demonstrate that Trident enhances the network throughput by 3.18×, compared to the TDMA based scheme.},\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": true,
         "note": "IEEE INFOCOM'24",
         "resources": {
             "pdf": "http://tns.thss.tsinghua.edu.cn/sun/publications/2024.Trident.pdf",
