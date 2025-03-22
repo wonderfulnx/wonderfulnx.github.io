@@ -1,6 +1,6 @@
 {
     "name": "Xin Na (纳鑫)",
-    "description": "**Biography:** I'm a Ph.D. student at Tsinghua University, and now working in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/), advised by [Prof. Yuan He](http://www.greenorbs.org/people/heyuan/). I received my B.S. degree in School of Software from Tsinghua University in 2020. <br>**Research Interests:** Wireless Networking, Low power IoT, Wireless Sensing, Cross-technology Communication. <br>**Currently, I am actively seeking postdoctoral opportunities outside Mainland China. My CV is available <a href=\"../assets/XinNa-CV.pdf\" target=\"_blank\">here</a>. Feel free to reach out if interested.**",
+    "description": "**Biography:** I'm a Ph.D. student at Tsinghua University, and now working in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/), advised by [Prof. Yuan He](http://www.greenorbs.org/people/heyuan/). I received my B.S. degree in School of Software from Tsinghua University in 2020. <br>**Research Interests:** Wireless Networking, Low power IoT, Wireless Sensing, Cross-technology Communication. <br>**Currently, I am actively seeking postdoctoral opportunities outside Mainland China. My CV is available <a href=\"/files/XinNa-CV.pdf\" target=\"_blank\">here</a>. Feel free to reach out if interested.**",
     "contact": {
         "Github": {"icon": "fa-brands fa-github", "url": "https://github.com/wonderfulnx"},
         "Gitlab": {"icon": "fa-brands fa-gitlab", "url": "https://gitlab.com/wonderfulnx"},
