@@ -1,5 +1,22 @@
 [
     {
+        "bibtex": "@inproceedings{Satori,\n  author = {Zou, Yang and Na, Xin and Sun, Yimiao and Chen, Yande and He, Yuan},\n  title = {Satori: In-band Analog Backscatter for Audio Transmission},\n  year = {2025},\n  booktitle = {Proceedings of the 2025 ACM MobiSys},\n}",
+        "authors": {
+            "boldAuthors": ["Xin Na"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "released": false,
+        "note": "ACM MobiSys'25",
+        "resources": {
+            "pdf": null,
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
         "bibtex": "@inproceedings{QuinID,\n  author = {Na, Xin and Zhang, Jia and Zhang, Jiacheng and Guo, Xiuzhen and Zou, Yang and Jin, Meng and Sun, Yimiao and Liu, Yunhao and He, Yuan},\n  title = {QuinID: Enabling FDMA-Based Fully Parallel RFID with Frequency-Selective Antenna},\n  year = {2025},\n  booktitle = {Proceedings of the 2025 ACM MobiCom},\n}",
         "authors": {
             "boldAuthors": ["Xin Na"],
@@ -9,10 +26,10 @@
         "released": false,
         "note": "ACM MobiCom'25",
         "resources": {
-            "pdf": null,
+            "pdf": "https://tns.thss.tsinghua.edu.cn/sun/publications/2025.QuinID.pdf",
             "slides": null,
             "video": null,
-            "code": null,
+            "code": "https://github.com/wonderfulnx/QuinID",
             "demo": null
         }
     },

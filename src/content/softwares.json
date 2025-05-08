@@ -1,6 +1,8 @@
 [
     {
         "category": "Research", "list": [
+            {"name": "QuinID", "url": "https://github.com/wonderfulnx/QuinID", "content": "Open source design for MobiCom 2025 paper QuinID."},
+            {"name": "RFID-Reader", "url": "https://github.com/wonderfulnx/UHF-Gen2-RFID-Reader", "content": "A high performance UHF Gen2 RFID Reader, using FPGA-based SDR platform (ADI FMCOMMS2/3 with Xilinx Zynq SoC)."},
             {"name": "Leggiero", "url": "https://github.com/wonderfulnx/Leggiero", "content": "Tag hardware for MobiSys 2023 paper Leggiero and its enhanced version Leggiero+."},
             {"name": "Wi-attack", "url": "https://github.com/wonderfulnx/Wi-attack", "content": "Source code for SECON 2021 paper Wi-attack."}
         ]
