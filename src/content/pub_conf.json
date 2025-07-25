@@ -6,13 +6,13 @@
             "correspondingAuthors": ["Yuan He"],
             "equalContributionAuthors": null
         },
-        "released": false,
+        "released": true,
         "note": "ACM MobiSys'25",
         "resources": {
-            "pdf": null,
-            "slides": null,
+            "pdf": "https://tns.thss.tsinghua.edu.cn/sun/publications/2025.Satori.pdf",
+            "slides": "https://tns.thss.tsinghua.edu.cn/sun/slides/Satori_slides.pptx",
             "video": null,
-            "code": null,
+            "code": "https://github.com/Ling-YangHui/Satori",
             "demo": null
         }
     },
@@ -23,7 +23,7 @@
             "correspondingAuthors": ["Yuan He"],
             "equalContributionAuthors": null
         },
-        "released": false,
+        "released": true,
         "note": "ACM MobiCom'25",
         "resources": {
             "pdf": "https://tns.thss.tsinghua.edu.cn/sun/publications/2025.QuinID.pdf",
