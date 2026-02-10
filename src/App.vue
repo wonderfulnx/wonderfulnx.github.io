@@ -22,8 +22,8 @@ import TalkList from './components/TalkList.vue'
     <hr>
     <EducationList />
     <hr>
-    <ExperienceList />
-    <hr>
+    <!-- <ExperienceList /> -->
+    <!-- <hr> -->
     <PublicationConfList />
     <hr>
     <PublicationJourList />
