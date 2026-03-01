@@ -1,6 +1,6 @@
 {
     "name": "Xin Na (纳鑫)",
-    "description": "**Biography:** I currently work as a research assistant in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/) at Tsinghua University. Previously, I received my Ph.D. and Bachelor's degree from [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/), under the supervision of [Prof. Yuan He](https://tns.thss.tsinghua.edu.cn/sun/members/YuanHe/). My CV is available <a href=\"/files/XinNa-CV.pdf\" target=\"_blank\">here</a>. <br>**Research Interests:** Wireless Networking, Low power IoT, Wireless Sensing, Cross-technology Communication.<br>**Email:** xin.na16@outlook.com (permanent), nx20@mails.tsinghua.edu.cn (to expire soon).",
+    "description": "**Biography:** I received my Ph.D. and Bachelor's degree from [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/), under the supervision of [Prof. Yuan He](https://tns.thss.tsinghua.edu.cn/sun/members/YuanHe/). My CV is available <a href=\"/files/XinNa-CV.pdf\" target=\"_blank\">here</a>. <br>**Research Interests:** Wireless Networking, Low power IoT, Wireless Sensing, Cross-technology Communication.<br>**Email:** xin.na16@outlook.com (permanent), nx20@mails.tsinghua.edu.cn (to expire soon).",
     "contact": {
         "CV": {"icon": "fa-solid fa-file", "url": "/files/XinNa-CV.pdf"},
         "Github": {"icon": "fa-brands fa-github", "url": "https://github.com/wonderfulnx"},
@@ -17,6 +17,7 @@
     "deprecated": {
         "Reddit": {"icon": "fa-brands fa-reddit", "url": "https://www.reddit.com/user/wonderfulnx"},
         "Xbox": {"icon": "fa-brands fa-xbox", "content": "naxingmail"},
-        "PlayStation": {"icon": "fa-brands fa-playstation", "content": "wonderfulnx"}
+        "PlayStation": {"icon": "fa-brands fa-playstation", "content": "wonderfulnx"},
+        "Bio": "I currently work as a research assistant in the [Systems and Ubiquitous Networking (SUN) group](http://tns.thss.tsinghua.edu.cn/sun/) at Tsinghua University. Previously, "
     }
 }
